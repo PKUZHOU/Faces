@@ -55,9 +55,14 @@ except faces.BadFilterID:
 ```
 
 ## Known filters
-are stored in `faces.KNOWN_FILTERS` list.
-API is not documented so expect them to change or brake over time.
-You can track which of them works on [Travis CI](https://travis-ci.org/vasilysinitsin/Faces) latest build info. It is scheduled to be updated daily.
+
+Known Filters: |  |  |  |  |
+--- | --- | --- | --- | --- |
+`no-filter` | `smile` | `smile_2` | `hot` | `old` |
+`young` | `female_2` | `female` | `male` | `pan` |
+`hitman` | `hollywood` | `heisenberg` | `impression` | `lion` |
+`goatee` | `hipster` | `bangs` | `glasses` | `wave` |
+`makeup` |
 
 
 ## Advanced features
