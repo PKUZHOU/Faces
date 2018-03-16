@@ -34,8 +34,8 @@ import json
 
 import requests
 
-BASE_API_URL = 'https://node-01.faceapp.io/api/v2.3/photos'  # Ensure no slash at the end.
-BASE_HEADERS = {'User-agent': "FaceApp/1.0.229 (Linux; Android 4.4)"}
+BASE_API_URL = 'https://node-01.faceapp.io/api/v2.6/photos'  # Ensure no slash at the end.
+BASE_HEADERS = {'User-agent': "FaceApp/2.0.561(Linux; Android 4.4)"}
 DEVICE_ID_LENGTH = 8
 KNOWN_FILTERS = ['smile', 'smile_2', 'hot', 'old', 'young', 'female', 'male']
 
